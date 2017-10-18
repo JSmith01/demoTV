@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo for hang</title>
+    <script src="./main.js"></script>
+    <style>
+    #v {
+    	position: fixed;
+    	left: 0;
+    	right: 0;
+    	top: 0;
+    	bottom: 0;
+    	height: 100vh;
+    	width: 100vw;
+    }
+    #log {
+    	position: fixed;
+    	width: 20vw;
+    	height: 100vh;
+    	right: 0;
+    	top: 0;
+    	bottom: 0;
+    	background: rgba(0,0,0,0.8);
+    	z-index: 10;
+    	color: #fff;
+    	overflow: hidden;
+    }
+    </style>
+</head>
+<body>
+<!-- http://217.19.222.11:8015/001/1507613200 -->
+<!-- http://media.w3.org/2010/05/bunny/movie.mp4 -->
+	<video id="v" src="" autoplay="autoplay"></video>
+	<div id="log">Log data</div>
+</body>
+</html>
